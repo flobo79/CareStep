@@ -6,7 +6,7 @@ export type Json =
   | { [key: string]: Json | undefined }
   | Json[]
 
-export interface Database {
+export type Database = {
   public: {
     Tables: {
       customers: {
@@ -228,7 +228,7 @@ export interface Database {
         | "incomplete_expired"
         | "past_due"
         | "unpaid"
-      | "paused"
+        | "paused"
     }
     CompositeTypes: {
       [_ in never]: never

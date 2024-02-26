@@ -7,8 +7,7 @@ import { createCheckoutAction } from '../actions/create-checkout-action';
 
 export async function PricingSection({ isPricingPage }: { isPricingPage?: boolean }) {
   const products = await getProducts();
-
-  const HeadingLevel = isPricingPage ? 'h1' : 'h2';
+    const HeadingLevel = isPricingPage ? 'h1' : 'h2';
 
   return (
     <section className='relative rounded-lg bg-black py-8'>

@@ -13,8 +13,8 @@ import { useSupabase } from '@/libs/supabase/supabase-provider';
 import { getURL } from '@/utils/get-url';
 
 const titleMap = {
-  login: 'Login to UPDATE_THIS_WITH_YOUR_APP_DISPLAY_NAME',
-  signup: 'Join UPDATE_THIS_WITH_YOUR_APP_DISPLAY_NAME and start generating banners for free',
+  login: 'Login to CareStep',
+  signup: 'Join CareStep and start generating banners for free',
 } as const;
 
 const siteUrl = getURL();
